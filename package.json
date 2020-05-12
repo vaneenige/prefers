@@ -1,6 +1,6 @@
 {
   "name": "prefers",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Detect system (or manually set) preferences for color scheme and reduced motion.",
   "main": "dist/index.js",
   "umd:main": "dist/index.js",
