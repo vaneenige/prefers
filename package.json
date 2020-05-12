@@ -1,0 +1,57 @@
+{
+  "name": "prefers",
+  "version": "0.0.0",
+  "description": "Detect system (or manually set) preferences for color scheme and reduced motion.",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "jsnext:main": "dist/index.module.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "microbundle src/index.js --no-sourcemap",
+    "test": "eslint src __tests__ && tsc && jest --coverage",
+    "prepare": "$npm_execpath run test"
+  },
+  "author": {
+    "name": "Colin van Eenige",
+    "email": "cvaneenige@gmail.com"
+  },
+  "license": "MIT",
+  "typings": "src/index.d.ts",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "preact"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "keywords": [
+    "prefers-color-scheme",
+    "prefers-reduced-motion",
+    "system preference",
+    "dark mode"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^7.0.0",
+    "eslint-config-preact": "^1.1.1",
+    "jest": "^26.0.1",
+    "json-schema": "^0.2.5",
+    "microbundle": "^0.12.0",
+    "node": "^12.16.3",
+    "typescript": "^3.8.3"
+  }
+}
