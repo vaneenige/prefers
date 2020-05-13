@@ -49,7 +49,7 @@ setPrefers('reduced-motion', 'reduce'); // turn on
 
 // Assume reduced motion is turned on
 prefers('reduced-motion'); // true
-setPrefers('reduced-motion', 'no-preference'); // turn off
+setPrefers('reduced-motion', false); // turn off
 ```
 
 ---
