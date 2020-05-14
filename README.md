@@ -1,7 +1,7 @@
 # prefers
 
 [![NPM](http://img.shields.io/npm/v/prefers.svg)](https://www.npmjs.com/package/prefers)
-[![travis-ci](https://travis-ci.org/vaneenige/prefers.svg)](https://travis-ci.org/vaneenige/prefers)
+[![Tests](https://github.com/vaneenige/prefers/workflows/Tests/badge.svg?branch=master)](https://github.com/vaneenige/prefers/actions?query=workflow%3ATests)
 [![gzip size](http://img.badgesize.io/https://unpkg.com/prefers/dist/index.js?compression=gzip)](https://unpkg.com/prefers)
 [![TypeScript](https://img.shields.io/static/v1.svg?label=&message=TypeScript&color=294E80)](https://www.typescriptlang.org/)
 
